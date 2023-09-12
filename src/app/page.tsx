@@ -1,4 +1,5 @@
 import MyComponent from "@/components/MyComponent";
+import Wrapper from "@/components/Wrapper";
 
 
 export default function Home() {
@@ -6,10 +7,11 @@ export default function Home() {
     <main className="">
      <h1>WebApp Oblig 3 - Yahye Abdi Ahmed</h1>
      {/* Task 1 - create component */}
-     <p>Task 1 - create component:</p>
      <MyComponent title="" />
-     <p>Task 2 - Basic prop</p>
+     {/* Task 2 and task 4- Basic prop and wrapper component */}
+     <Wrapper>
      <MyComponent title="It works" />
+     </Wrapper>
     </main>
   )
 }
