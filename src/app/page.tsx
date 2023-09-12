@@ -1,7 +1,8 @@
+import Food from "./components/Food";
 import MyComponent from "./components/MyComponent";
 import Wrapper from "./components/Wrapper";
 
-
+const food:string[] = ['Pizza', 'Hamburger', 'Coke'];
 
 
 export default function Home() {
@@ -14,6 +15,14 @@ export default function Home() {
      <Wrapper>
      <MyComponent title="It works" />
      </Wrapper>
+     {/* Task 6 food list */}
+     {/*
+     <ul>{food.map(foodItem=>{
+        return <li key={foodItem}>{foodItem}</li>;
+    })}</ul> 
+      */}
+      {/* Task 7 - Food component */}
+    <Food food={food} />
     </main>
   )
 }
