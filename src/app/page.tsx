@@ -1,5 +1,7 @@
-import MyComponent from "@/components/MyComponent";
-import Wrapper from "@/components/Wrapper";
+import MyComponent from "./components/MyComponent";
+import Wrapper from "./components/Wrapper";
+
+
 
 
 export default function Home() {
