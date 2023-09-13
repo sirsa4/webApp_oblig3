@@ -16,7 +16,7 @@ export default function Home() {
      <h1>WebApp Oblig 3 - Yahye Abdi Ahmed</h1>
      {/* Task 1 - create component */}
      <MyComponent title="" />
-
+  
      {/* Task 2 and task 4- Basic prop and wrapper component */}
      <Wrapper>
      <MyComponent title="It works" />
@@ -42,7 +42,7 @@ export default function Home() {
       This also needs to be a client component
     */}
     <Alert />
-    {/* Task 10 - 14 are inside Alert.jsx component */}
+    {/* Task 10 - 14 are inside Alert.jsx components */}
     </main>
   )
 }
