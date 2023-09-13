@@ -12,7 +12,8 @@ const food:string[] = ['Pizza', 'Hamburger', 'Coke'];
 export default function Home() {
  
   return (
-    <main className="">
+    <div className="container">
+       <main className="w-full mx-auto">
      <h1>WebApp Oblig 3 - Yahye Abdi Ahmed</h1>
      {/* Task 1 - create component */}
      <MyComponent title="" />
@@ -44,5 +45,7 @@ export default function Home() {
     <Alert />
     {/* Task 10 - 14 are inside Alert.jsx components */}
     </main>
+    </div>
+   
   )
 }
